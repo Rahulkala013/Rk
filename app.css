@@ -1,0 +1,13 @@
+blockquote{
+    color: rgba(15, 214, 207, 0.895);
+}
+
+input{
+    border-radius: 12%;
+    border: solid 0.25rem blue;
+}
+
+table {
+    border: solid 0.40rem indigo;
+    border-style: double;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="container mx-auto px-4 bg-gray-500">
+        <h1 class="text-4xl text-center">Hello world</h1>
+    </div>
+    
+    <div class = "w-1/2 h-40 bg-blue-600 text-white flex justify-center items-center">50% width and 40px height</div>
+    <div class="hidden md:block">This text is hidden but visible for medium screen</div>
+    <img src="img.jpeg" alt="floating image" class="float-right w-32 h-32">
+    <p class="clear-both">This text clears the float</p>
+    <img src="img.jpeg" alt="object fit and object positioning" class="w-full h-48 object-cover object-center">
+    <!-- <img src="" alt="" class="object-cover object-center"> -->
+     <div class="relative w-64 h-32 bg-gray-500 ">Parent Element with relative positioned
+        <div class="absolute top-0 left-0 bg-red-500 z-50">Child Element with absolute positioned</div>
+        <div class="absolute top-0 left-0 bg-red-500 z-20">Child Element 2 with absolute positioned</div>
+     </div>
+     <!-- fixed and sticky position -->
+
+     <!-- tailwindcss flex -->
+    <div class="flex justify-center items-center h-20 bg-gray-500">
+        <div>Logo</div>
+        <div>Menu</div>
+    </div>
+
+    <div class="grid grid-cols-6 gap-4 text-center">
+        <div class="bg-red-500">1</div>
+        <div class="bg-red-500">2</div>
+        <div class="bg-red-500">3</div>
+        <div class="bg-red-500">4</div>
+        <div class="bg-red-500">5</div>
+        <div class="bg-red-500">6</div>
+    </div>
+</body>
+</html>

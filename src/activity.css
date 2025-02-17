@@ -1,0 +1,37 @@
+.head{
+    background-color: rgb(0, 136, 0);
+    padding: 5px;
+}
+.hh1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    list-style-type: none;
+}
+
+.text1{
+    text-decoration: none;
+    color: white;
+}
+
+.grid-container{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.grid-items{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
